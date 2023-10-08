@@ -1,0 +1,14 @@
+name: Sukka去广告规则
+desc: 分流规则去广告
+
+rule-providers:
+
+  rejectConf:
+    type: http
+    behavior: domain-text
+    url: "https://cdn.jsdelivr.net/gh/SukkaW/Surge@master/List/domainset/reject.conf"
+    path: ./ruleset/rejectConf.yaml
+    interval: 86400
+    
+rules:
+  - RULE-SET,rejectConf,REJECT
