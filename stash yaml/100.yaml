@@ -1,6 +1,6 @@
 proxy-providers:
   服务提供商-1:
-    url: https://smjc.shop/api/v1/client/subscribe?token=6de192edd66093b60539feb094a44ddd&flag=shadowrocket
+    url: https://dy.smjc.top/api/v1/client/subscribe?token=6de192edd66093b60539feb094a44ddd
     interval: 600
    # 服务提供商-2:
   #   url: http://your-another-service-provider
