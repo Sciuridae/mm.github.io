@@ -1,6 +1,6 @@
 proxy-providers:
   服务提供商-1:
-    url: https://sub.sanfen017.xyz/api/v1/client/subscribe?token=61b39bf8e57ca367b15b973300111480&flag=clash
+    url: https://sub.sanfen017.xyz/api/v1/client/subscribe?token=46e385bf07e708bfddbf3375ac6144dd&flag=clash
     interval: 600
   # 服务提供商-2:
   #   url: http://your-another-service-provider
