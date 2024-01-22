@@ -22,6 +22,11 @@ proxy-groups:
       - CA 加拿大
       - KS 韩国
       - GM 德国
+      - AS 澳大利亚
+      - UK 英国
+      - IN 印度
+      - BR 巴西
+      - NL 荷兰
       - DIRECT
 
   - name: Netflix
@@ -38,6 +43,11 @@ proxy-groups:
       - CA 加拿大
       - KS 韩国
       - GM 德国
+      - AS 澳大利亚
+      - UK 英国
+      - IN 印度
+      - BR 巴西
+      - NL 荷兰
       - DIRECT
 
   - name: Disney+
@@ -54,6 +64,11 @@ proxy-groups:
       - CA 加拿大
       - KS 韩国
       - GM 德国
+      - AS 澳大利亚
+      - UK 英国
+      - IN 印度
+      - BR 巴西
+      - NL 荷兰
       - DIRECT
 
   - name: Spotify
@@ -70,6 +85,11 @@ proxy-groups:
       - CA 加拿大
       - KS 韩国
       - GM 德国
+      - AS 澳大利亚
+      - UK 英国
+      - IN 印度
+      - BR 巴西
+      - NL 荷兰
       - DIRECT
 
   - name: YouTube
@@ -86,6 +106,11 @@ proxy-groups:
       - CA 加拿大
       - KS 韩国
       - GM 德国
+      - AS 澳大利亚
+      - UK 英国
+      - IN 印度
+      - BR 巴西
+      - NL 荷兰
       - DIRECT
 
   - name: Speedtest
@@ -102,6 +127,11 @@ proxy-groups:
       - CA 加拿大
       - KS 韩国
       - GM 德国
+      - AS 澳大利亚
+      - UK 英国
+      - IN 印度
+      - BR 巴西
+      - NL 荷兰
       - DIRECT
 
   - name: 默认
@@ -178,6 +208,51 @@ proxy-groups:
   - name: GM 德国
     filter: "德国|德|🇰🇷|GM|(?i)Germany"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Germany.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+
+  - name: AS 澳大利亚
+    filter: "澳大利亚|澳|🇦🇺|AS|(?i)Australia"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Australia.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+
+  - name: UK 英国
+    filter: "英国|英|🇬🇧|UK|(?i)United|Kingdom"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+
+  - name: IN 印度
+    filter: "印度|🇮🇳|IN|(?i)India"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/India.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+
+  - name: BR 巴西
+    filter: "巴西|🇧🇷|BR|(?i)Brazil"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Brazil.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+
+  - name: NL 荷兰
+    filter: "荷兰|🇳🇱|NL|(?i)Nederland"
+    icon: 🇳🇱
     interval: 120
     lazy: true
     tolerance: 50
